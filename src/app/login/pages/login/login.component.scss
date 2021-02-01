@@ -1,0 +1,27 @@
+.login.login-4 {
+    height: 100vh;
+  
+    .login-signin {
+      max-width: 370px;
+      width: 100%;
+    }
+  
+    .input-group.input-group-solid .form-control.form-control-solid:active,
+    .input-group.input-group-solid .form-control.form-control-solid.active,
+    .input-group.input-group-solid .form-control.form-control-solid:focus,
+    .input-group.input-group-solid .form-control.form-control-solid.focus {
+      background-color: transparent;
+    }
+  
+    .input-group.input-group-solid
+      .form-control.form-control-solid:-webkit-autofill,
+    .input-group.input-group-solid
+      .form-control.form-control-solid:-webkit-autofill:hover,
+    .input-group.input-group-solid
+      .form-control.form-control-solid:-webkit-autofill:focus,
+    .input-group.input-group-solid
+      .form-control.form-control-solid:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 30px #f3f6f9 inset!important;
+    }
+  }
+  
